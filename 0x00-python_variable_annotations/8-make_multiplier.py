@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
 """Multiplier Annotated Function"""
-
 from typing import Callable
-
 
 def make_multiplier(multiplier: float) -> Callable[[float], float]:
     """a type-annotated function make_multiplier that takes a float multiplier
